@@ -15,3 +15,8 @@
 <img src="img/banco-de-dados-conectado.png">
 
 ### Produto 3: Crie, publique e use modelos
+
+- <b>Opção B:</b> Serviços Cognitivos: Utilizando o Serviço de Idioma de IA do Azure
+<img src="img/ia-azure-servico-cognitivo.png">
+<br>
+<a href="exercicio04/src/main/java/exercicio04/AnalisadorDeSentimentos.java">Código em java</a>
