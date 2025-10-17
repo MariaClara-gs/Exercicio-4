@@ -19,4 +19,6 @@
 - <b>Opção B:</b> Serviços Cognitivos: Utilizando o Serviço de Idioma de IA do Azure
 <img src="img/ia-azure-servico-cognitivo.png">
 <br>
+- Demonstração do código em funcionamento
 <a href="exercicio04/src/main/java/exercicio04/AnalisadorDeSentimentos.java">Código em java</a>
+<img src="img/codigo-em-funcionamento.png">

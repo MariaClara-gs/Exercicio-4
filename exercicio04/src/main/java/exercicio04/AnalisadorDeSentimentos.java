@@ -9,7 +9,7 @@ import com.azure.core.credential.AzureKeyCredential;
 public class AnalisadorDeSentimentos {
 
     private static final String AZURE_ENDPOINT = "https://ia2ti2.cognitiveservices.azure.com/";
-    private static final String AZURE_KEY = ""; //chave zure, barrada pelo github
+    private static final String AZURE_KEY = ""; //chave azure, barrada pelo github
 
     public static void main(String[] args) {
     
