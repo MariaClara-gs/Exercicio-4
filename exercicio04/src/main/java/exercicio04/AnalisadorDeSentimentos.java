@@ -8,8 +8,8 @@ import com.azure.core.credential.AzureKeyCredential;
 
 public class AnalisadorDeSentimentos {
 
-    private static final String AZURE_ENDPOINT = "https://ia2ti2.cognitiveservices.azure.com/";
-    private static final String AZURE_KEY = ""; //chave azure, barrada pelo github
+    private static String AZURE_ENDPOINT = "https://ia2ti2.cognitiveservices.azure.com/";
+    private static String AZURE_KEY = ""; //chave azure, barrada pelo github
 
     public static void main(String[] args) {
     
@@ -18,12 +18,12 @@ public class AnalisadorDeSentimentos {
                 .credential(new AzureKeyCredential(AZURE_KEY))
                 .buildClient();
 
-        String textoParaAnalisar = "Estou insatisfeita com o servico"; //texto para analise
+        String texto = "Estou insatisfeita com o servico"; //texto para analise
 
-        System.out.println("Analisando: \"" + textoParaAnalisar + "\"");
+        System.out.println("Analisando: \"" + texto + "\"");
 
-        //Analizando
-        DocumentSentiment documentSentiment = client.analyzeSentiment(textoParaAnalisar);
+        //Analize
+        DocumentSentiment documentSentiment = client.analyzeSentiment(texto);
 
         SentimentConfidenceScores scores = documentSentiment.getConfidenceScores();
 
